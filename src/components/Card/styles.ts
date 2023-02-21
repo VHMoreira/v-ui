@@ -14,6 +14,8 @@ export const StyledCard = styled.li<Omit<CardProps, 'title'>>`
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 10px;
   width: ${({ width }) => width || '100%'};
+  box-sizing: border-box;
+  overflow-wrap: break-word;
 
   >header{
     box-sizing: border-box;
